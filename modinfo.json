@@ -1,0 +1,16 @@
+{
+	"name": "Amunets Weather Changes - v2.0.3",
+	"description": "Mod-ID: 1719601104\n\nChange weather thresholds. Defaults to less rain.\n\nTemperate (North):\n- Clear below 75 (was 50)\n- Rain from 75 to 90 (was 50 to 80)\n- Thunderstorm above 90 (was 80)\n\nSwamp:\n- Clear below 60 (was 30)\n- Rain 60-90 (was 30 to 80)\n- Thunderstorm above 90\n\nConsole commands:\n- Everybody: 'DataCmd WeatherCheck' to check current weather settings\n- Admin: 'DataCmd WeatherConfig <TempRain> <TempStorm> <ColdSnow> <SwampRain> <SwampStorm>' to set weather thresholds.\n\nExamples: \n'DataCmd WeatherConfig 50 80 30 30 80' for \"conan default\".\n'DataCmd WeatherConfig 75 90 30 60 90' for \"less rain\".\n'DataCmd WeatherConfig 101 101 30 101 101' for \"no rain\"\n\nDiscord @ https://discord.gg/a8hGAKW",
+	"changeNote": "2020-12-07 - 2.0.3\n- added more debug output.",
+	"author": "LilMissHentai",
+	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
+	"versionMajor": 2,
+	"versionMinor": 0,
+	"versionBuild": 3,
+	"bRequiresLoadOnStartup": false,
+	"steamPublishedFileId": "1719601104",
+	"steamVisibility": 0,
+	"folderName": "AmunetsWeatherChanges",
+	"revisionNumber": 279274,
+	"snapshotId": 28446
+}
