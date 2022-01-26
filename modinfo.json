@@ -1,16 +1,16 @@
 {
-	"name": "Amunets Weather Changes - v2.0.6",
+	"name": "Amunets Weather Changes - v2.0.8a",
 	"description": "Mod-ID: 1719601104\n\nChange weather thresholds. Defaults to less rain.\n\nTemperate (North):\n- Clear below 75 (was 50)\n- Rain from 75 to 90 (was 50 to 80)\n- Thunderstorm above 90 (was 80)\n\nSwamp:\n- Clear below 60 (was 30)\n- Rain 60-90 (was 30 to 80)\n- Thunderstorm above 90\n\nConsole commands:\n- Everybody: 'DataCmd WeatherCheck' to check current weather settings\n- Admin: 'DataCmd WeatherConfig <TempRain> <TempStorm> <ColdSnow> <SwampRain> <SwampStorm>' to set weather thresholds.\n\nExamples: \n'DataCmd WeatherConfig 50 80 30 30 80' for \"conan default\".\n'DataCmd WeatherConfig 75 90 30 60 90' for \"less rain\".\n'DataCmd WeatherConfig 101 101 30 101 101' for \"no rain\"\n\nDiscord @ https://discord.gg/a8hGAKW\nPatreon @ https://www.patreon.com/sailorsat\n\nFor MS-Store users - read [url=https://forums.funcom.com/t/for-ms-store-how-to-get-mods-off-the-steam-workshop-without-a-steam-account/174325]this[/url].",
-	"changeNote": "2021-12-08 - 2.0.6\n- patch 2.7 update.",
+	"changeNote": "2022-01-26 - 2.0.8a\n- patch 2.8 update",
 	"author": "LilMissHentai",
 	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
 	"versionMajor": 2,
 	"versionMinor": 0,
-	"versionBuild": 6,
+	"versionBuild": 8,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "1719601104",
 	"steamVisibility": 0,
 	"folderName": "AmunetsWeatherChanges",
-	"revisionNumber": 337372,
-	"snapshotId": 31794
+	"revisionNumber": 348928,
+	"snapshotId": 32447
 }
