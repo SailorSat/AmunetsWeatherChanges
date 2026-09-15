@@ -1,12 +1,12 @@
 {
-	"name": "Amunets Weather Changes - v2.1.0",
+	"name": "Amunets Weather Changes - v2.1.1",
 	"description": "Mod-ID: 3797481641\r\n\r\nChange weather thresholds. Defaults to 'less rain'.\r\n\r\nTemperate (North):\r\n- Clear below 75 (was 50)\r\n- Rain from 75 to 90 (was 50 to 80)\r\n- Thunderstorm above 90 (was 80)\r\n\r\nSwamp:\r\n- Clear below 60 (was 30)\r\n- Rain 60-90 (was 30 to 80)\r\n- Thunderstorm above 90\r\n\r\nConsole commands:\r\n- Everybody: 'DataCmd WeatherCheck' to check current weather settings\r\n- Admin: 'DataCmd WeatherConfig <TempRain> <TempStorm> <ColdSnow> <SwampRain> <SwampStorm>' to set weather thresholds.\r\n\r\nExamples: \r\n'DataCmd WeatherConfig 50 80 30 30 80' for \"conan default\".\r\n'DataCmd WeatherConfig 75 90 30 60 90' for \"less rain\".\r\n'DataCmd WeatherConfig 101 101 30 101 101' for \"no rain\"\r\n\r\nDiscord @ https://discord.gg/a8hGAKW\r\nPatreon @ https://www.patreon.com/sailorsat\r\n\r\nFor MS-Store users - read [url=https://forums.funcom.com/t/for-ms-store-how-to-get-mods-off-the-steam-workshop-without-a-steam-account/174325]this[/url].",
-	"changeNote": "2026-09-07 - Amunets Weather Changes - v2.1.0\r\n- patch 2.1.0 cook.",
+	"changeNote": "2026-09-15 - Amunets Weather Changes - v2.1.1\r\n- patch 2.1.1 cook.",
 	"author": "LilMissHentai",
 	"authorUrl": "https://steamcommunity.com/id/sailorsat/",
 	"versionMajor": 2,
 	"versionMinor": 1,
-	"versionBuild": 0,
+	"versionBuild": 1,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "1719601104",
 	"steamTestLivePublishedFileId": "2856091082",
@@ -16,9 +16,8 @@
 	},
 	"steamVisibility": 0,
 	"folderName": "AmunetsWeatherChanges",
-	"devkitRevisionNumber": 1001,
+	"devkitRevisionNumber": 1002,
 	"devkitSnapshotId": 0,
-	"fileSize": -2,
 	"minimumVersion": "Enhanced",
 	"requestedHttpOrigins": []
 }
